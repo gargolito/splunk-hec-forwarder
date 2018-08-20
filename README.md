@@ -4,6 +4,12 @@
 * https://bitbucket.org/rfaircloth-splunk/rsyslog-omsplunk
 * http://www.rfaircloth.com/
 
+## More Better Now ##
+Since the initial commit, I've done some additional refactoring, biggest change was to add retry for the request module and a retry loop in case the request module loop reaches its max.
+
+## Prettier ##
+Using the tutorial from Cory Schaffer's youtube channel, I modified Atom to use autopep8 and other packages to make the code more readable. https://youtu.be/DjEuROpsvp4
+
 ### Why? ###
 I needed a "stand alone" HEC forwarder that could send an application log directly to a Splunk HEC rather than to a syslog server.
 
